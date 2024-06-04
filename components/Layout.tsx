@@ -6,10 +6,17 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
   const [a, setA] = useState(false);
 
   return (
-    <div>
+    <div className="h-screen flex flex-col">
       <Navbar />
 
-      <div className="flex">{children}</div>
+      <div
+        style={{
+          minHeight: 0,
+        }}
+        className="flex mx-4 mb-3 gap-2  flex-1"
+      >
+        {children}
+      </div>
     </div>
   );
 };
