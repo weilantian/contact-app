@@ -12,7 +12,7 @@ const Navbar = () => {
         <h3 className="font-medium ">Contacts</h3>
       </div>
 
-      <button className="bg-blue-500 px-3 py-2 rounded-md text-white">
+      <button className="bg-blue-600 px-3 py-2 rounded-md text-white">
         New Contact
       </button>
     </nav>

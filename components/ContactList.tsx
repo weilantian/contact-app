@@ -15,7 +15,7 @@ const ContactListItem: FC<
       <div className=" bg-gray-100 w-14 h-14 rounded-full"></div>
       <div>
         <h3 className="font-medium">{detail.name}</h3>
-        <h4 className="text-gray-500">{detail.company.name}</h4>
+        <h4 className="text-gray-500">@{detail.username}</h4>
       </div>
     </div>
   );
