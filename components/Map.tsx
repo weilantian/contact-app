@@ -1,7 +1,7 @@
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { FC } from "react";
-const LazyMap: FC<{ lat: number; lng: number }> = ({ lat, lng }) => (
+const LazyMap: FC = () => (
   <MapContainer
     style={{
       width: "100%",
